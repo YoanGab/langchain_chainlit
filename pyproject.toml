@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-ollama-chainlit"
+version = "0.1.0"
+description = ""
+authors = ["Yoan Gabison <yoangab.freelance@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+langchain = "^0.1.4"
+ollama = "^0.1.4"
+chainlit = "^0.7.501"
+langchain-openai = "^0.0.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
